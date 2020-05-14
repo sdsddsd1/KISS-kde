@@ -1,0 +1,21 @@
+#!/bin/sh -e
+
+OPTIMIZER="$CFLAGS" \
+    DEBUG=-DNDEBUG \
+    INSTALL_USER=root \
+    INSTALL_GROUP=root \
+    ./configure \
+    --prefix=/usr \
+    --sbindir=/usr/bin \
+    --bindir=/usr/bin \
+    --libdir=/usr/lib \
+    --libexecdir=/usr/libexec \
+    --includedir=/usr/include \
+    --mandir=/usr/share/man \
+    --docdir=/usr/share/doc \
+    --datadir=/usr/share \
+    --disable-nls \
+    --disable-static
+make
+
+make DESTDIR="$1" install

@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+mkdir -p "$1/usr/share/xml/docbook/xml-dtd-4.5"
+cp -af docbook.cat *.dtd ent/ *.mod "$1/usr/share/xml/docbook/xml-dtd-4.5/"
+chmod 755 "$1/usr/share/xml/docbook/xml-dtd-*/ent"

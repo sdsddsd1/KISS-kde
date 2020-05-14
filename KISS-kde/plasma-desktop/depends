@@ -1,0 +1,40 @@
+baloo
+cmake make
+extra-cmake-modules make
+kactivities
+kcmutils
+kcoreaddons
+kcrash
+kdeclarative
+kdelibs4support
+kdbusaddons
+kded
+kdesu
+kdoctools make
+kglobalaccel
+kholidays
+ki18n
+kidletime
+kio-extras
+kitemmodels
+kjsembed
+knewstuff
+knotifyconfig
+kpackage
+kquickcharts
+krunner
+#kscreenlocker - later?
+ktexteditor
+ktextwidgets
+kwallet
+kwin
+#libgcrypt - later?
+milou
+phonon
+plasma-framework
+plasma-integration
+qt5
+qt5-tools 
+tzdata
+libXtst make
+zlib

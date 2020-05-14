@@ -1,0 +1,7 @@
+cmake make
+extra-cmake-modules make
+kcoreaddons
+ki18n
+kservice
+kpty
+qt5-tools make

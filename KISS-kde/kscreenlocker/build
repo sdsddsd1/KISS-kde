@@ -1,0 +1,15 @@
+#!/bin/sh -e
+
+export DESTDIR="$1"
+
+cmake -B build \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DBUILD_TESTING=NO
+
+cmake --build build
+cmake --install build
+
+install -Dm644 kde.pam   "$1/etc/pam.d/kde"
+install -m644 kde-np.pam "$1/etc/pam.d/kde-np"

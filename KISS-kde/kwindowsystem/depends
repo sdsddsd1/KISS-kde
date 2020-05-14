@@ -1,0 +1,7 @@
+cmake make
+extra-cmake-modules make
+libXrender
+qt5-tools
+qt5-x11extras
+xcb-util-keysyms
+xcb-util-wm

@@ -1,0 +1,12 @@
+cmake make
+extra-cmake-modules make
+karchive
+kauth
+kconfig
+kguiaddons
+ki18n
+kiconthemes
+kio
+kparts
+sonnet
+qt5-tools make

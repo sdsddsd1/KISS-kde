@@ -1,0 +1,4 @@
+cmake make 
+extra-cmake-modules make
+kwindowsystem
+qt5-tools make

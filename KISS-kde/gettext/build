@@ -1,0 +1,11 @@
+#!/bin/sh -e
+
+gt_cv_funct_printf_posix=yes \
+./configure \
+    --prefix=/usr \
+    --enable-threads=posix \
+    --disable-java \
+    --enable-static
+
+make
+make DESTDIR="$1" install

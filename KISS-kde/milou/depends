@@ -1,0 +1,11 @@
+cmake make
+extra-cmake-modules make
+kcoreaddons
+kdeclarative
+ki18n
+kitemmodels
+krunner
+kservice
+plasma-framework
+qt5
+qt5-declarative

@@ -1,0 +1,11 @@
+cmake make 
+extra-cmake-modules make
+kconfig 
+kcoreaddons
+ki18n
+kio
+kservice
+plasma-framework
+threadweaver
+qt5
+qt5-tools make

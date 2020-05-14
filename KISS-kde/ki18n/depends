@@ -1,0 +1,6 @@
+cmake make
+extra-cmake-modules make
+gettext
+qt5-declarative
+#qt5-script?
+qt5-tools make

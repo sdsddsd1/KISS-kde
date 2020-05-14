@@ -1,0 +1,10 @@
+cmake make
+extra-cmake-modules make
+kconfig
+kcoreaddons
+kcodecs
+kconfigwidgets
+kwidgetsaddons
+kxmlgui
+qt5
+qt5-tools make

@@ -1,0 +1,16 @@
+cmake make
+extra-cmake-modules make
+kcoreaddons
+kconfig
+kcompletion
+kconfigwidgets
+kdoctools make
+kiconthemes
+kio
+kitemviews
+kplotting
+ktextwidgets
+kwidgetsaddons
+kxmlgui
+qt5-tools make
+sonnet

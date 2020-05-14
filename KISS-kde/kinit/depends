@@ -1,0 +1,11 @@
+cmake make
+extra-cmake-modules make
+kcrash
+kconfig
+kdoctools
+kio
+ki18n
+kservice
+kwindowsystem
+libcap
+qt5

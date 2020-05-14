@@ -1,0 +1,32 @@
+breeze
+cmake make
+extra-cmake-modules make
+kactivities
+kcmutils
+kcompletion
+kconfig
+kcoreaddons
+kdeclarative
+kdecoration
+kglobalaccel
+ki18n
+kiconthemes
+kidletime
+kinit
+kio
+knotifications
+kpackage
+#kscreenlocker - later?
+ktextwidgets
+kwidgetsaddons
+kwindowsystem
+knewstuff
+kservice
+kxmlgui
+plasma-framework
+qt5
+qt5-declarative
+qt5-x11extras
+xcb-util-cursor
+xcb-util-image
+xcb-util-wm

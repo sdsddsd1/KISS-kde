@@ -1,0 +1,21 @@
+#!/bin/sh -e
+
+export LDFLAGS="$LDFLAGS -lintl"
+
+meson \
+    --libdir=/usr/lib \
+    --libexecdir=/usr/libexec \
+    --buildtype=plain \
+    -Dprefix=/usr \
+    -Dcgroup-controller=elogind \
+    -Dhalt-path=/sbin/halt \
+    -Drootlibexecdir=/usr/libexec/elogind \
+    -Dreboot-path=/usr/bin/reboot \
+    -Ddefault-hierarchy=hybrid \
+    -Ddefault-kill-user-processes=false \
+    -Dpolkit=true \
+    build
+
+ninja -C build
+
+DESTDIR="$1" ninja -C build install

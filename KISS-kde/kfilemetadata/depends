@@ -1,0 +1,12 @@
+attr
+cmake make
+extra-cmake-modules make
+exiv2
+ffmpeg
+karchive
+kconfig
+kcoreaddons
+ki18n
+taglib
+qt5
+qt5-tools

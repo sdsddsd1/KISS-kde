@@ -1,0 +1,27 @@
+cmake make
+dbus
+extra-cmake-modules make
+kcompletion
+kconfig
+kconfigwidgets
+kcrash
+kdbusaddons
+kded
+kdesignerplugin
+kemoticons
+kglobalaccel
+kguiaddons
+ki18n
+kiconthemes
+kinit
+knotifications
+kparts
+kservice
+ktextwidgets
+kunitconversion
+kwidgetsaddons
+kwindowsystem
+kxmlgui
+perl
+qt5
+qt5-tools

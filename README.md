@@ -56,8 +56,8 @@ These are the requirements for the KDE framework as given by the ['from source' 
 - [x] kimageformats
 - [x] kauth - requires (optionally) polkitqt-1
 - [x] kjobwidgets
-- [ ] kcompletion
-- [ ] kdnssd
+- [x] kcompletion
+- [x] kdnssd
 - [ ] kconfigwidgets -> Will need to remove `ki18n`
 - [ ] kservice -> Will need to remove `ki18n`
 - [ ] kiconthemes

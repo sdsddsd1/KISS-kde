@@ -1,0 +1,19 @@
+cmake make
+extra-cmake-modules make
+qt5
+qt5-x11extras
+kcrash
+kdeclarative
+kglobalaccel
+ki18n
+kidletime
+kcmutils
+knotifications
+solid
+ktextwidgets
+kwindowsystem
+kxmlgui
+xcb-util-keysyms
+linux-pam
+libseccomp
+elogind

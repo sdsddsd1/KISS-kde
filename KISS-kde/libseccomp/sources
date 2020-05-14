@@ -1,0 +1,3 @@
+https://github.com/seccomp/libseccomp/releases/download/v2.4.3/libseccomp-2.4.3.tar.gz
+patches/remove-redefinition-prctl.patch
+patches/fix-performance-regression.patch

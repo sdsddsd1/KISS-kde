@@ -1,0 +1,11 @@
+#!/bin/sh -e
+
+autoreconf -sfi
+./configure \
+    --prefix=/usr \
+    --with-ui \
+    --with-readline \
+    --disable-static
+
+make
+make DESTDIR="$1" install

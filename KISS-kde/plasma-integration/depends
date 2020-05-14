@@ -1,0 +1,14 @@
+cmake make
+extra-cmake-modules make
+kconfig
+kconfigwidgets
+ki18n
+kiconthemes
+kio
+knotifications
+kwidgetsaddons
+kwindowsystem
+breeze
+libXcursor
+qt5
+qt5-x11extras

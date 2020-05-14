@@ -1,4 +1,6 @@
+bison
 cmake make
 eudev
 extra-cmake-modules make
-qt5
+flex
+qt5-tools

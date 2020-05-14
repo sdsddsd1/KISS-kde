@@ -1,0 +1,17 @@
+#!/bin/sh -e
+
+for patch in *.patch; do 
+    patch -p1 < $patch
+done
+
+export DESTDIR="$1"
+
+cmake -B build \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DWITH_ASF=ON \
+    -DWITH_MP4=ON \
+    -DBUILD_SHARED_LIBS=ON 
+
+cmake --build build
+cmake --install build

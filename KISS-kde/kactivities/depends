@@ -1,0 +1,10 @@
+boost make
+cmake make
+extra-cmake-modules make
+boost make
+kcoreaddons
+kconfig
+kwindowsystem
+qt5
+qt5-declarative make
+qt5-tools make
